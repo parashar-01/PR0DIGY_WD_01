@@ -1,0 +1,212 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* -------------------------------Front Page------------------------------ */
+
+
+.container{
+    background-image: url(background.jpg);
+    background-size: 1350px 650px;
+    background-image: no-repeat;
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+
+nav .img img{
+    width: 17%;
+    margin-top: -15px;
+}
+
+
+nav .btn{
+    display: flex;
+    margin-top: 15px;
+}
+
+
+.btn .eng{
+    margin-inline: 22px;
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-right: 25px;
+}
+
+
+.btn .sign{
+    width: 90px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 10px;
+}
+
+
+.btn .eng:hover{
+    background-color: transparent;
+}
+
+
+.btn .sign:hover{
+    background-color: transparent;
+    border: 3px solid red;
+    cursor: pointer;
+}
+
+
+.main{
+    margin-top: 120px;
+    text-align: center;
+}
+
+
+.main h1{
+    font-size: 50px;
+}
+
+
+.main h3{
+    font-size: 44px;
+}
+
+
+.main p{
+    font-size: 22px;
+}
+
+
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+
+.input input{
+    width: 400px;
+    height: 60px;
+    font-size: 22px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+
+.input button{
+    width: 200px;
+    height: 64px;
+    background-color: rgb(244, 21, 21);
+    color: white;
+    font-size: 22px;
+    border: none;
+}
+
+
+/* ------------------2nd, 3rd, 4th, 5th Pages------------------------------- */
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 5px;
+    padding: 30px;
+    border-top: 6px solid rgb(54, 52, 52);
+    height: 80vh;
+}
+
+
+.content h1{
+    padding-top: 90px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+
+.content p{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+
+.content img{
+    width: 40%;
+    height: 60%;
+    margin-top: 27px;
+}
+
+
+/* ------------------------------FAQ------------------------------------ */
+
+
+.FAQ{
+    border-top: 6px solid rgb(54, 52, 52);
+}
+
+
+.FAQ h1{
+    text-align: center;
+    margin-top: 33px;
+    font-size: 44px;
+}
+
+
+.FAQ button{
+    width: 90%;
+    height: 60px;
+    background-color: rgb(54, 52, 52);
+    color: white;
+    font-size: 25px;
+    margin-left: 5%;
+    text-align: left;
+}
+
+
+/* -----------------------------Footer---------------------------------- */
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 40px 400px 40px 0px;
+    border-top: 6px solid rgb(54, 52, 52);
+    margin-top: 53px;
+}
+
+
+.footer .list{
+    display: flex;
+    justify-content: left;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+
+.footer .list a{
+    color: white;
+}
